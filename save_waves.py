@@ -206,5 +206,5 @@ def save_dict(data,path,filename):
         pickle.dump(data, f)
 #%% save dict
 path_save = '/Users/carocamargo/Documents/data/floodSBJ/'
-filename = 'waves_complete'
+filename = 'waves'
 save_dict(dic,path_save,filename)
