@@ -7,6 +7,7 @@ Created on Fri Jul 25 15:04:27 2025
 https://zenodo.org/records/10814048
 
 2. open ERA5 wind stress 
+(see save_era5.py )
 
 3. Open tg
 
