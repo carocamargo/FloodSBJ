@@ -22,14 +22,17 @@ compute_tides()
 apply_IB()
 
 # 4. Get SBJ (link from GRL), wind stress, band-pass data and save dfs
+save_era5()
 get_save_data()
 
 
 ### ANALYSIS 
-# 8. Analysis: bootstrap, regress, stats
+# 8. Analysis: bootstrap, regress, stats, and save it for plotting
+analysis()
 
-# 9. Save for plotting
-
+# 9. Save extra data for plotting
+save_waves()
+save_noaa_thresholds()
 
 
 #%% Libraries &  user defined functions
